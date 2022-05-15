@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main_container{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(108, 108, 234);
+}
+
+.wrapper{
+    
+    width: 1090px;
+    height: 646px;
+    background: #A5A6F6;
+    border-radius: 11px;
+    padding: 40px 40px;
+}
+.header{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin: 20px 0px;
+}
+
+.input_container{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.input_control{
+    width: 634px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 0px 20px;
+    outline: none;
+
+    &:hover{
+        outline:none;
+        border-radius: 2px solid rgb(96, 96, 242) !important;
+        box-shadow: 0 0 10px #719ECE;
+    }
+}
+.btn_submit{
+    padding: 0px 25px;
+    margin: 0px 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #1276D2;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid #268bea;
+    
+    &:hover{
+        background-color: #391bae;
+        cursor: pointer;
+    }
+}
+
+.input_items{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 1090px;
+    height: auto;
+    
+}
+.item{
+    margin-right: 20px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+    background-color: #391bae;
+    border-radius: 8px;
+    /* identical to box height */
+
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    position:relative;
+
+}
+
+.icon_label{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    background-color: rgb(239, 119, 76);
+    border-radius: 50%;
+    overflow: hidden;
+    img{
+        height: 28px;
+        width: 28px;
+    }
+    &:hover{
+        background-color: rgb(244, 158, 97);
+        cursor: pointer;
+    }
+}
+.text_danger{
+    color: red;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
