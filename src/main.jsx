@@ -13,6 +13,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App/>} />
         <Route path='/day9-pomodoro' element={<PomoDoro />} />
         <Route path='/day12-image_gallery' element={<ImageGalleryContainer/>} />
+        <Route path="*" element={
+          <main>
+            HTTP404 Error
+          </main>
+        } />
       </Routes>
     </BrowserRouter>
     <App />
