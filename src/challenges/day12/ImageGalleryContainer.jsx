@@ -11,11 +11,13 @@ const ImageGalleryContainer = () => {
     
   return (
     <ImageProvider>
+        <div className="main_container">
         <div className='gallery_container'>
         
         
-          <ImageList />
-          <ImageModel />
+        <ImageList />
+        <ImageModel />
+      </div>
         </div>
     </ImageProvider>
     

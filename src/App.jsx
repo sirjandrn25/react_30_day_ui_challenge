@@ -1,13 +1,16 @@
 import React from 'react'
-import PomoDoro from './challenges/day9/PomoDoro';
+
 import './App.css'
-import ImageGalleryContainer from './challenges/day12/ImageGalleryContainer';
+
+// import { Link } from 'react-router-dom';
 
 
 const App = () => {
   return (
     <div className='main_container'>
-      <ImageGalleryContainer />
+      
+      <a target={"_blank"} href="day9-pomodoro" style={{"padding":"0px 20px"}} >Day9| Pomodoro</a> {" "}
+      <a target={"_blank"} href="day12-image_gallery" style={{"padding":"0px 20px"}} >Day12| ImageGallery</a>
     
     </div>
   )

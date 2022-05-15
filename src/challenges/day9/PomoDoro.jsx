@@ -10,14 +10,17 @@ const PomoDoro = () => {
     
   return (
       <TimeProvider>
-        <div className='pomodoro_container'>
-            <FocusActionContainer />
-            <TimerContainer />
-            
-            <span className='display_message'>
-              STAY FOCUSED. WORK HARD. KEEP GRIDING!
-            </span>
+        <div className='main_container'>
+          <div className='pomodoro_container'>
+              <FocusActionContainer />
+              <TimerContainer />
+              
+              <span className='display_message'>
+                STAY FOCUSED. WORK HARD. KEEP GRIDING!
+              </span>
+          </div>
         </div>
+        
       </TimeProvider>
     
   )
