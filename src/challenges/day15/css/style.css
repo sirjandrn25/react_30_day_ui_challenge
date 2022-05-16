@@ -1,0 +1,121 @@
+.main_container {
+  height: 100vh;
+  width: 100wh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #5e5ef4;
+}
+
+.advice_box {
+  width: 1053px;
+  height: 609px;
+  background: #7879F1;
+  border-radius: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advice_no {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  text-align: center;
+  color: #4BFF0C;
+}
+
+.advice_text {
+  width: 900px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 30px 0px;
+  border-bottom: 2px solid white;
+}
+
+.refresh_btn {
+  margin-top: 50px;
+  height: 81.25px;
+  width: 81.25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  padding: 5px;
+  border: 2px solid #7879F1;
+}
+
+.refresh_btn img {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.refresh_btn img:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.refresh_btn:hover {
+  cursor: pointer;
+  background-color: #d6dff0;
+}
+
+.refresh_btn.active {
+  margin-top: 50px;
+  height: 81.25px;
+  width: 81.25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  padding: 5px;
+  border: 2px solid #7879F1;
+  -webkit-transition: .5s linear;
+  transition: .5s linear;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.refresh_btn.active img {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.refresh_btn.active img:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.refresh_btn.active:hover {
+  cursor: pointer;
+  background-color: #d6dff0;
+}
+/*# sourceMappingURL=style.css.map */
