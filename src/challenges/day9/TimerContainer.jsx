@@ -5,7 +5,7 @@ import TimeControl from './TimeControl';
 const TimerContainer = () => {
     const {offset} = UseTimeContext();
   return (
-    <div className='timer_box'>
+    <div className='relative'>
       <svg height={350} width={350}>
         <circle
           className='circle'

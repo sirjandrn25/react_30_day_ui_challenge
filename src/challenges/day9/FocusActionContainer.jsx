@@ -20,10 +20,10 @@ const FocusActionContainer = () => {
     }
     
   return (
-    <div className='action_buttons'>
-        <button className={active==='pomodoro'?'btn_focus active':'btn_focus'} id="pomodoro" onClick={e=>handleFocusTime(e,25)}>Pomodoro | Focus</button>
-        <button className={active==='short_break'?'btn_focus active':'btn_focus'} id="short_break" onClick={e=>handleFocusTime(e,5)}>Short break</button>
-        <button className={active==='long_break'?'btn_focus active':'btn_focus'} id="long_break" onClick={e=>handleFocusTime(e,20)}>Long break</button>
+    <div className='p-4 bg-[#7D81C5] rounded-[82px] w-[950px] flex justify-around'>
+        <button className={`h-[60px] text-[32px] font-bold rounded-[82px] px-4 text-white  ${active==='pomodoro'?'bg-[#F03710]':'bg-[#1E2140]'}  hover:bg-[#F03710]`} id="pomodoro" onClick={e=>handleFocusTime(e,25)}>Pomodoro | Focus</button>
+        <button className={`h-[60px] text-[32px] font-bold rounded-[82px] px-4 text-white  ${active==='short_break'?'bg-[#F03710]':'bg-[#1E2140]'} hover:bg-[#F03710]`} id="short_break" onClick={e=>handleFocusTime(e,5)}>Short break</button>
+        <button className={`h-[60px] text-[32px] font-bold rounded-[82px] px-4 text-white ${active==='long_break'?'bg-[#F03710]':'bg-[#1E2140]'} hover:bg-[#F03710]`} id="long_break" onClick={e=>handleFocusTime(e,20)}>Long break</button>
     </div>
   )
 }

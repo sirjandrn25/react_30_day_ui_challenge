@@ -19,12 +19,12 @@ const TimeControl = () => {
     
 
   return (
-    <div className='time_control'>
-      <span className="count_down_time">
+    <div className='absolute top-24 left-24 flex flex-col justify-center items-center'>
+      <span className="text-[70px] mb-4 font-bold text-white border-b-2 border-blue-900">
         {curr_time}
       </span>
     <div className="start_reset">
-        {!start?<button className='btn_start' onClick={handleStart}>start</button>:<button className={`btn_reset`} onClick={handleReset}>reset</button>}
+        {!start?<button className='text-[32px] bg-blue-300 text-white px-2 rounded-md' onClick={handleStart}>start</button>:<button className={`text-[32px] bg-orange-500 text-white px-2 rounded-md`} onClick={handleReset}>reset</button>}
         
     </div>
     </div>
