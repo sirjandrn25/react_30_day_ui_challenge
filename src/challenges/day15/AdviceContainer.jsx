@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/style.css'
+
 import refresh from './icons/refresh.png'
 import axios from 'axios';
 const url = 'https://api.adviceslip.com/advice';

@@ -1,6 +1,6 @@
 import React from 'react'
 import CrossIcon from './cross.png'
-import './css/style.css'
+
 
 
 

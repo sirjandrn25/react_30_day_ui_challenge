@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './css/style.css'
+
 import FocusActionContainer from './FocusActionContainer';
 import TimerContainer from './TimerContainer';
 import { TimeProvider } from './context';
