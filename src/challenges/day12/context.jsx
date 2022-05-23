@@ -28,16 +28,31 @@ export const ImageProvider = ({children})=>{
         setShow(true);
 
     }
+
+    const leftSlide = (obj)=>{
+        const index = images.indexOf(obj)
+        if(index>0){
+            saveCurrImg(images[index-1]);
+        }
+        
+    }
+    const rightSlide = (obj)=>{
+        const index = images.indexOf(obj)
+        if(index<images.length-1){
+            saveCurrImg(images[index+1]);
+        }
+    }
+    
    
     
 
-    return <ImageContext.Provider value={{images,show,handleClose,saveCurrImg,curr_image}}>
+    return <ImageContext.Provider value={{images,show,handleClose,saveCurrImg,curr_image,leftSlide,rightSlide}}>
         {children}
     </ImageContext.Provider>
 
 }
 
 export const UseImageContext = ()=>{
-    const {images,show,handleClose,saveCurrImg,curr_image} = React.useContext(ImageContext);
-    return {images,show,handleClose,saveCurrImg,curr_image}
+    const {images,show,handleClose,saveCurrImg,curr_image,slideImageObj,leftSlide,rightSlide} = React.useContext(ImageContext);
+    return {images,show,handleClose,saveCurrImg,curr_image,slideImageObj,leftSlide,rightSlide}
 }

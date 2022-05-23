@@ -20,7 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/day13-weekend-project' element={<Week2Container />} />
        
         <Route path='/day9-pomodoro' element={<PomoDoro />} />
-        <Route path='/day12-image_gallery' element={<ImageGalleryContainer/>} />
+        <Route path='/day12-image-gallery' element={<ImageGalleryContainer/>} />
         <Route path='/day14-input-separator' element={<InputSeparatorContainer />} />
         <Route path='/day15-advice-generator' element={<AdviceContainer />} />
         <Route path="*" element={

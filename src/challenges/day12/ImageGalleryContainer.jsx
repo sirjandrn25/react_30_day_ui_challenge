@@ -10,16 +10,15 @@ import ImageModel from './ImageModel';
 const ImageGalleryContainer = () => {
     
   return (
-    <ImageProvider>
-        <div className="main_container">
-        <div className='gallery_container'>
-        
-        
-        <ImageList />
-        <ImageModel />
-      </div>
+    <>
+      <ImageProvider>
+        <div className='bg-black w-screen relative '>
+          <ImageList />
+          <ImageModel />
         </div>
-    </ImageProvider>
+
+      </ImageProvider>
+    </>
     
   )
 }

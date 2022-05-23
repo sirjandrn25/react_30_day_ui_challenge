@@ -5,8 +5,8 @@ const ImageFigure = (props) => {
   const {saveCurrImg} = UseImageContext();
 
   return (
-    <div className='image_frame' onClick={e=>saveCurrImg(props.img_data)}>
-        <img src={props.img_data.img} alt="" />
+    <div className='col-1 h-[512px] w-full hover:cursor-pointer' onClick={e=>saveCurrImg(props.img_data)}>
+        <img src={props.img_data.img} className='w-full h-full transition ease-in-out delay-150 hover:scale-105' alt="" />
     </div>
   )
 }
