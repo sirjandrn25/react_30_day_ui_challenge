@@ -35,7 +35,7 @@ export const dataset = [
                 'thumbnail':'https://www.youtube.com/watch?v=gpWSlLlQChk&ab_channel=begintocode',
                 'tags':['starting out','buttons'],
                 'livelink':'https://imaginative-banoffee-db2159.netlify.app/day14-weekend-project',
-                'github':'https://github.com/sirjandrn25/react_30_day_ui_challenge/tree/main/src/challenges/day14',
+                'github':'https://github.com/sirjandrn25/react_30_day_ui_challenge/tree/main/src/challenges/day14-week2',
                 'figma':'https://www.figma.com/file/QE89cpxxaOY3qbKMeIZ09Q/30Day?node-id=916%3A409'
             },
             
