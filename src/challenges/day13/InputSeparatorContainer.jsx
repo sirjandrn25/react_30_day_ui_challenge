@@ -42,9 +42,7 @@ const InputSeparatorContainer = () => {
             },100)
             
         }
-        
-        
-       
+         
         
     }
 
@@ -98,9 +96,9 @@ const InputSeparatorContainer = () => {
             <div className="flex flex-row justify-start max-w-[960px] flex-wrap" >
                 {items.map((item,index)=>{
                     return (
-                        <div className={`relative mb-4 ${item.color} mr-4 text-[20px] font-bold px-2 text-white rounded-[5px]`} key={index} >
+                        <div className={`relative mb-4 bg-[#7E12D2] mr-4 text-[20px] font-bold px-2 text-white rounded-[5px]`} key={index} >
                             
-                            <span>{item.content} {item.color}</span>
+                            <span>{item.content}</span>
                             <label onClick={e=>handleDelete(index)} className='bg-[#EF775D] cursor-pointer absolute overflow-hidden -top-2 -right-2  rounded-full'>
                                 <img src={CrossIcon} alt="" className='h-full h-[18px] w-[18px] w-full object-cover' />
                             </label>
