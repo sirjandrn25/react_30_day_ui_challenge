@@ -7,6 +7,7 @@ const ProjectShowContainer = () => {
   const {week,updateWeek} = UseProjectContext();
   React.useEffect(()=>{
     updateWeek(1);
+    document.title = "second weekend project"
   },[]);
 
   const notAvailable = ()=>{

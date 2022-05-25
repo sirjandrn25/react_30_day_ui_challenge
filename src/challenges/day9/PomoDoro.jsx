@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 
 import FocusActionContainer from './FocusActionContainer';
 import TimerContainer from './TimerContainer';
 import { TimeProvider, UseTimeContext } from './context';
 
 const PomoDoro = () => {
-
+  useEffect(()=>{
+    document.title = "pomodoro"
+  },[]);
     
     
   return (

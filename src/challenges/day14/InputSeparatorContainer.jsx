@@ -20,7 +20,9 @@ const InputSeparatorContainer = () => {
     
     const [error,setError] = React.useState('');
     const [value,setValue] = React.useState('');
-   
+    useEffect(()=>{
+        document.title = "input separator"
+    },[]);
     // const [invalid,setInvalid] = React.useState(false);
 
 

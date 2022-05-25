@@ -23,6 +23,7 @@ const AdviceContainer = () => {
         response.then(data=>{
             setAdviceInfo(data)
         })
+        document.title = "advice generator"
     },[]);
 
     const refreshAdvice = ()=>{

@@ -8,7 +8,9 @@ import ImageModel from './ImageModel';
 
 
 const ImageGalleryContainer = () => {
-    
+  React.useEffect(()=>{
+    document.title = "image gallery"
+  },[]);
   return (
     <>
       <ImageProvider>
