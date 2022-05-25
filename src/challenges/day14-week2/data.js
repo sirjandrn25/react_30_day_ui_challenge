@@ -32,7 +32,7 @@ export const dataset = [
             {
                 'title':'Week 2 Project',
                 'day':14,
-                'thumbnail':'https://www.youtube.com/watch?v=krIdSHUQVKw&ab_channel=begintocode',
+                'thumbnail':'https://www.youtube.com/watch?v=gpWSlLlQChk&ab_channel=begintocode',
                 'tags':['starting out','buttons'],
                 'livelink':'https://imaginative-banoffee-db2159.netlify.app/day14-weekend-project',
                 'github':'https://github.com/sirjandrn25/react_30_day_ui_challenge/tree/main/src/challenges/day14',
