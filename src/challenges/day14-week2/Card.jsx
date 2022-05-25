@@ -35,6 +35,7 @@ const Card = (props) => {
         
         <a target="_blank" href={props.project.livelink} className='h-[25px] px-2 w-auto bg-[#660066] mr-2 rounded-md font-bold text-sm  text-white'>live demo</a>
         <a target="_blank" href={props.project.github} className='h-[25px] px-2 w-auto bg-[#cc3300] mr-2 rounded-md font-bold text-sm  text-white'>github</a>
+        <a target="_blank" href={props.project.figma} className='h-[25px] px-2 w-auto bg-[#00ffcc] mr-2 rounded-md font-bold text-sm  text-white'>figma</a>
       </div>
 
     </div>
