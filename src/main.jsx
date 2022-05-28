@@ -10,6 +10,7 @@ import Week2Container from './challenges/day14-week2/Week2Container';
 import ShortLinkContainer from './challenges/day17/ShortLinkContainer';
 import ButtonContainer from './challenges/day1/ButtonContainer';
 import {BrowserRouter,Route,Routes} from 'react-router-dom';
+import RecipeContainer from './challenges/day4/RecipeContainer';
 import AvatarContainer from './challenges/day2/AvatarContainer';
 
 
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App/>}  />
         <Route path='/day1-button' element={<ButtonContainer />} />
         <Route path='/day2-avatar' element={<AvatarContainer />} />
+        <Route path="/day4-recipe" element={<RecipeContainer />} />
         <Route path='/day10-pomodoro' element={<PomoDoro />} />
         <Route path='/day12-image-gallery' element={<ImageGalleryContainer/>} />
         <Route path='/day14-weekend-project' element={<Week2Container />} />
