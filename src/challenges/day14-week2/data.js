@@ -47,6 +47,15 @@ export const dataset = [
         github: 'https://github.com/sirjandrn25/react_30_day_ui_challenge/tree/main/src/challenges/day5',
         figma: 'https://www.figma.com/file/QE89cpxxaOY3qbKMeIZ09Q/30Day?node-id=269%3A26',
       },
+      {
+        title: 'Dark and Light',
+        day: 6,
+        thumbnail: 'https://www.youtube.com/watch?v=6_aSp592pKo&ab_channel=begintocode',
+        tags: ['starting out', 'buttons'],
+        livelink: 'https://30day-ui-challenge-sirjantamang.netlify.app/day6-headerfooter',
+        github: 'https://github.com/sirjandrn25/react_30_day_ui_challenge/tree/main/src/challenges/day6',
+        figma: 'https://www.figma.com/file/QE89cpxxaOY3qbKMeIZ09Q/30Day?node-id=367%3A1515',
+      },
     ],
   },
   {
