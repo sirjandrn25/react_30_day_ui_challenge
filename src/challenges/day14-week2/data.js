@@ -50,7 +50,7 @@ export const dataset = [
       {
         title: 'Dark and Light',
         day: 6,
-        thumbnail: 'https://www.youtube.com/watch?v=6_aSp592pKo&ab_channel=begintocode',
+        thumbnail: 'https://www.youtube.com/watch?v=DJP_Sl2JzP8&ab_channel=begintocode',
         tags: ['starting out', 'buttons'],
         livelink: 'https://30day-ui-challenge-sirjantamang.netlify.app/day6-headerfooter',
         github: 'https://github.com/sirjandrn25/react_30_day_ui_challenge/tree/main/src/challenges/day6',
